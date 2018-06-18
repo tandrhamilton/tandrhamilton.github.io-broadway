@@ -5,7 +5,11 @@ body {
 
 div {
   color: white;
-  background-image: ./resources/images/the-flatiron-building.png
+}
+
+.header,
+.designed {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
 }
 
 h1,
@@ -22,11 +26,22 @@ p a {
   font-size: 18px;
 }
 
+h4 {font-size: 14px;
+font-weight: normal;}
+
 h2 {
   font-size: 32px;
 }
 
 h3 {
   font-size: 23px;
+}
 
+p {
+  font-size: 11px;
+}
+
+.footer {
+  background-color: dimgray;
+  color: white;
 }
